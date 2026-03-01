@@ -207,5 +207,5 @@ Basically, a baby version of a real production backend 😄
 
 # 📬 Author
 
-Backend Developer Candidate 🚀
+Akmal Zaki - Backend Developer Candidate 🚀
 Ready to build scalable systems and solve real-world problems.
