@@ -44,6 +44,8 @@ The system tracks user scores and displays the **Top 10 users in real-time**.
 
 ## 🔄 Execution Flow Diagram
 
+* Flow diagram are available in Draw.io format (May Refer Problem6/Diagram)
+
 ```
 User Action Completed
         ↓
@@ -62,6 +64,24 @@ Fetch Top 10 Scores
 Broadcast via WebSocket
         ↓
 Frontend Updates Scoreboard
+```
+
+---
+
+## 🔄 Sequence Diagram
+
+```
+Client          API Server        Auth        DB        WebSocket
+  |                  |             |           |             |
+  |---Action-------->|             |           |             |
+  |                  |---Verify--->|           |             |
+  |                  |<--OK--------|           |             |
+  |                  |-------------Update----->|             |
+  |                  |<------------OK----------|             |
+  |                  |------Fetch Top 10------>|             |
+  |                  |<------Top 10------------|             |
+  |                  |------------------------>| Broadcast   |
+  |<-----------------|                         |             |
 ```
 
 ---
@@ -235,4 +255,8 @@ This module is designed not just to function…
 
 …but to scale, secure, and perform under real-world conditions 🚀
 
-Author: Akmal Zaki
+
+# 📬 Author
+
+Akmal Zaki - Backend Developer Candidate 🚀
+Ready to build scalable systems and solve real-world problems.
