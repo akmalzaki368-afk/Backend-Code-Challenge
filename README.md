@@ -1,4 +1,4 @@
-# 🚀 Backend Developer Challenge
+# 🚀 Backend Developer Challenge (Problem 5)
 
 Welcome! This project is a simple backend service built with **TypeScript** and **Express.js** that demonstrates CRUD operations, database integration, and basic system design thinking.
 
@@ -44,8 +44,8 @@ src/
 ## 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
-cd backend-challenge
+git clone <https://github.com/akmalzaki368-afk/Backend-Code-Challenge.git>
+cd backend-code-challenge
 ```
 
 ---
